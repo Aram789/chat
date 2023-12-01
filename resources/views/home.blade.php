@@ -4,8 +4,8 @@
 
 
     <div class="container w-25">
-        <div class="row justify-content-center gap-2">
-            <div class="alert alert-danger fade"></div>
+        <div class="row justify-content-center gap-2 form-group">
+
             <label>
                 <input type="text" class="message form-control">
             </label>

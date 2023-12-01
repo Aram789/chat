@@ -82,4 +82,5 @@
 <script type="module">
     window.home = '{!!route('home.store') !!}'
     window.user = '{!!\Illuminate\Support\Facades\Auth::user()->name !!}'
+    window.userId = '{!!\Illuminate\Support\Facades\Auth::user()->id !!}'
 </script>
