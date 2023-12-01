@@ -1,8 +1,11 @@
 @extends('layouts.app')
 
 @section('content')
+
+
     <div class="container w-25">
         <div class="row justify-content-center gap-2">
+            <div class="alert alert-danger fade"></div>
             <label>
                 <input type="text" class="message form-control">
             </label>
@@ -11,7 +14,7 @@
             </div>
             <div>
                 <label>
-                    <textarea readonly rows="10" cols="50" class="message_field form-control text-secondary"></textarea>
+                    <textarea readonly rows="10" cols="50" class="message_field form-control text-secondary" name="content"></textarea>
                 </label>
             </div>
         </div>

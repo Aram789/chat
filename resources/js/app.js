@@ -22,10 +22,9 @@ $(document).ready(function () {
                 console.error('Error:', error);
             }
         }
+
+        $('.alert-danger').removeClass('fade').text("The message field required")
     });
-
-
-
 })
 
 
